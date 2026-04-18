@@ -6,3 +6,13 @@ coverage/
 *.log
 .env*
 !.env.example
+# Java build files
+backend-spring-boot/target/
+*.class
+*.jar
+
+# Node
+node_modules/
+
+# env
+.env
